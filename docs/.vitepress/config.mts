@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/my-blog/',
   lang: 'zh-CN',
   title: "liulian的博客",
   description: "liulian的个人博客",
